@@ -1,0 +1,94 @@
+* {
+box-sizing: border-box;
+}
+img {max-width:100%;
+object-fit: cover;
+}
+.upper, .product-name{
+text-transform: uppercase;
+font-family: sans-serif;
+}
+.name{
+color: #4169e1;
+font-family: sans-serif;
+}
+.title-header, .feature-work, .product-name{
+color: #5f9ea0;
+font-family:  Georgia;
+}
+.title-header, .name{
+font-size: 2em;
+}
+.logo{
+width: 100%;
+}
+.grid{
+margin:0 auto;
+width: 100%;
+}
+.row{
+width: 100%;
+display: flex;
+}
+.top-line{
+border-bottom: solid;
+}
+.signiture{
+text-align: right;
+}
+.feature-work{
+margin-left: 3%;
+}
+.feature-work-data{
+text-align: center;
+}
+@media screen and (min-width: 600px) {
+.product-name{
+font-size: 2em;
+}
+.feature-work{
+font-size: 2vw;
+font-family: sans-serif;
+}
+}
+@media screen and (max-width: 600px) {
+.top-line{
+flex-wrap: wrap;
+}
+.div-logo{
+width: 100%:;
+object-fit: cover;
+}
+}
+.col-1 {width: 5%;}
+.col-2 {width: 10%;}
+.col-3 {width: 15%;}
+.col-4 {width: 20%;}
+.col-5 {width: 25%;}
+.col-6 {width: 30%;}
+.col-7 {width: 35%;}
+.col-8 {width: 40%;}
+.col-9 {width: 45%;}
+.col-10 {width: 50%;}
+.col-11 {width: 55%;}
+.col-12 {width: 60%;}
+.col-13 {width: 65%;}
+.col-14 {width: 70%;}
+.col-15 {width: 75%;}
+.col-16 {width: 80%;}
+.col-17 {width: 85%;}
+.col-18 {width: 90%;}
+.col-19 {width: 95%;}
+.col-20 {width: 100%;}
+[class*="col-"] {
+float: center;
+padding: 15px;
+}
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+.heigh-1{height: 50%;}
+.heigh-2{height: 2em;}
+.heigh-3{height: 3em;}
